@@ -1,0 +1,190 @@
+body
+{
+ margin:0px auto;
+ padding:0px;
+ text-align:center;
+ width:100%;
+ font-family: "Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
+ background-color:#ffffff;
+}
+#header
+{
+ width:100%;
+ margin:0px auto;
+ padding:0px;
+ text-align:center;
+ height:70px;
+ line-height:70px;
+}
+#header li
+{
+ display:inline-block;
+ margin-right:25px;
+ font-size:17px;
+ color:#084B8A;
+ font-weight:bold;
+ cursor:pointer;
+}
+#header #site_name
+{
+ text-align:center;
+ width:750px;
+ font-size:20px;
+ margin-left:20px;
+}
+
+#home,#events,#contact
+{
+ margin-top:100px;
+ width:90%;
+ height:400px;
+ margin-left:5%;
+ padding:50px;
+ box-sizing:border-box;
+ background-color:#084B8A;
+ border-radius:10px;
+ color:white;
+}
+#home h1
+{
+ font-size:40px;
+}
+#home p
+{
+ font-size:20px;
+}
+#Events p
+{
+ font-size:20px;
+}
+#contact input[type="text"] {
+ width:250px;
+ height:35px;
+ padding-left:10px;
+ float:left;
+ margin-left:80px;
+ border:none;
+}
+#contact textarea {
+ float:left;
+ width:250px;
+ height:35px;
+ margin-left:20px;
+ border:none;
+ padding-left:10px;
+ padding-top:10px;
+}
+#contact input[type="submit"] {
+ float:left;
+ margin-left:20px;
+ height:35px;
+ width:100px;
+ background:none;
+ color:white;
+ border:1px solid white;
+}
+
+#login input[type="submit"] {
+  #contact input[type="text"] {
+   width:250px;
+   height:35px;
+   padding-left:10px;
+   float:left;
+   margin-left:80px;
+   border:none;
+  }
+
+  * {box-sizing: border-box}
+  body {font-family: Verdana, sans-serif; margin:0}
+  .mySlides {display: none}
+  img {vertical-align: middle;}
+
+  .slideshow-container {
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+  }
+
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  /* Caption text */
+  .text {
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
